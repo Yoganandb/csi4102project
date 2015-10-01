@@ -1,0 +1,153 @@
+/*This is the css page for Course Share*/ 
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-color: #e9eaed;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+   /* height: 90px;  */
+    background-color: #A2A2C2;
+    color:#EAEAEA;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+    padding: 60px 15px 0;
+}
+.container .text-muted {
+    margin: 20px 0;
+    color:#EAEAEA;
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+code {
+    font-size: 80%;
+}
+
+.sec-head{
+    text-transform: uppercase;
+    color: #777;
+    height: 100%;
+}
+.light-box-form{
+    background-color: white;
+    padding: 20px;
+    border-radius: 3%;
+    border:1px solid #777;
+}
+
+.date_section {
+    font: 14px/14px 'Open Sans Condensed', Arial, sans-serif;
+    text-transform: uppercase;
+    display: block;
+    float: left;
+    width: 61px;
+    height: 61px;
+    background: #e7e7e7;
+    color: #A2A2C2;  
+    text-align: center;
+    margin-right: 18px;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+.day{
+    display: block;
+    margin-top: 11px;
+    font:24px/24px 'Open Sans Condensed', Arial, sans-serif;
+    margin-bottom: 0;
+}
+.news-entry{
+    margin-top: 30px;
+}
+.news-entry:hover .date_section { 
+    background: #A2A2C2;
+    color: #e7e7e7;
+}
+.new-info{
+     display: block;
+    font-size: 11px;
+}
+.page-content{
+    margin-top: 40px; 
+    margin-bottom: 100px; 
+    
+}
+.post{ 
+    
+}
+.post-heading{ 
+    padding-bottom: 12px;
+}
+.post-heading h4{
+    font-size: 13px;
+    margin-bottom: -2px;
+}
+.post-heading p{
+    font-size: 12px;
+    padding-left: 1px;
+}
+.post-heading a:hover{
+    text-decoration: none;
+    color:#000;
+}
+.post-body{ 
+    
+}
+.course-category {
+    margin-top:30px; 
+}
+.course-category a{
+    color:black;
+    
+}
+.course-category a:hover{
+    text-decoration: none;
+    color: gray;
+}
+.comment{
+    
+}
+.comment-body{
+    
+}
+.comment-body a:hover{
+    text-decoration: none;
+    color:#000;
+}
+.comment-feedback{
+    
+}
+
+.featured{
+    margin:10px;
+}
+
+blockquote, blockquote p {font-size:13px; line-height:17px;color:#02090F; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif; font-weight:400;}
+blockquote {
+  border: 1px solid #ddd;
+  border-width: 1px 1px 1px 1px;
+  margin:10px 0 20px 0;
+  padding:0px 20px 20px 20px;
+}
+
